@@ -24,6 +24,12 @@ namespace PPAI_G7_2024.Entidades
 
         public decimal GetPrecioARS() => PrecioARS;
 
+        public List<Vino> ObtenerVinos()
+        {
+            List<Vino> vinos = new List<Vino>();
+            return vinos;
+        }
+
         public void CalcularRanking()
         {
             // falta implementar
@@ -44,39 +50,51 @@ namespace PPAI_G7_2024.Entidades
             // Implementación del método
         }
 
-        public void tieneReseñasDeTipoEnPeriodo(string tipo, DateTime fechaDesde, DateTime fechaHasta)
+        public Boolean tieneReseñasDeTipoEnPeriodo(string tipo, DateTime fechaDesde, DateTime fechaHasta)
         {
-            List<Vino> vinosConReseñas = new List<Vino>();
+            
             foreach (Reseña reseña in Reseñas)
             {
                 if(tipo == "De Sommelier" && reseña.EsDeSommelier() && reseña.SosDePeriodo(fechaDesde, fechaHasta))
                 {
-                    String nombre = GetNombre();
-                    decimal precio = GetPrecioARS();
-                    String nombreBodega = BuscarInfoBodega();
-
-                    //return list de vinos 
+                    return true;
                 }
                
             }
+            return false;
         }
 
         public String BuscarInfoBodega()
         {
             return Bodega.GetNombre();
         }
-        public void BuscarVarietal()
-        {
-            // falta implementar
+        public String BuscarVarietal()
+        { //busco en la lista varietales de esta clase y traigo la descripcion de cada varietal
+            foreach (Varietal varietal in Varietales)
+            {
+                return varietal.GetDescripcion()
+            }
         }
 
-        public void BuscarPuntajeDeSommelier()
+        public double BuscarPuntajeDeSommelier(DateTime fechaDesde, DateTime fechaHasta)
         {
-            // falta implementar
+            var reseñasSommelier = Reseñas.Where(r => r.EsDeSommelier() && r.SosDePeriodo(fechaDesde, fechaHasta)).ToList();
+            int suma = reseñasSommelier.Sum(r => r.GetPuntaje());
+            int cantidad = reseñasSommelier.Count;
+
+            return CalcularPuntajePromedio(suma, cantidad);
         }
-        public void CalcularPuntajePromedio()
+        public double BuscarPuntajeGeneral(DateTime fechaDesde, DateTime fechaHasta)
         {
-            // falta implementar
+            var reseñasGeneral = Reseñas.Where(r => r.SosDeEnofilo && r.SosDePeriodo(fechaDesde, fechaHasta)).toList();
+            int suma = reseñasGeneral.Sum(r => r.GetPuntaje());
+            int cantidad = reseñasGeneral.Count;
+            return CalcularPuntajePromedio(suma, cantidad);
         }
+        public double CalcularPuntajePromedio(int suma, int cantidad)
+        {
+            return cantidad > 0 ? Math.Round((double)suma / cantidad, 2) : 0;
+        }
+
     }
 }

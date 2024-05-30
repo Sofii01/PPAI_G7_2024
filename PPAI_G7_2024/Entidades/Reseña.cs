@@ -23,7 +23,7 @@ namespace PPAI_G7_2024.Entidades
 
         public void SosDeEnofilo()
         {
-            // falta implementar
+            return !EsPremium;
         }
 
         public bool SosDeSommelier()

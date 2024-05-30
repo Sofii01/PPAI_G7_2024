@@ -37,7 +37,10 @@ namespace PPAI_G7_2024.Entidades
 
         public string GetNombre() => Nombre;
 
-        public RegionVitivinicola ObtenerRegionPais() => null; // ver como hacer
-
+        public RegionVitivinicola ObtenerRegionPais()
+        {
+            
+            return Region.GetNombre(); 
+        }
     }
 }

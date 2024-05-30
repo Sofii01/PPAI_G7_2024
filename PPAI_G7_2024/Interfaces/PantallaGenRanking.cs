@@ -99,7 +99,7 @@ namespace PPAI_G7_2024.Interfaces
 
         private void tomarConfirmarGenReport(object sender, EventArgs e)
         {
-            List<Vino> vinos = new List<Vino>();
+            List<Vino> vinos = ObtenerVinos();
             gestorRanking.buscarVinosConReseñaEnPeriodo(vinos);
         }
 

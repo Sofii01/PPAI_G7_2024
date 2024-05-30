@@ -28,7 +28,10 @@ namespace PPAI_G7_2024.Entidades
 
         public string GetNombre() => Nombre;
 
-        public Pais ObtenerPais() => null; // ver como hacer
+        public Pais ObtenerPais()
+        {
+            return Provincia.Pais; 
+        }
 
     }
 }

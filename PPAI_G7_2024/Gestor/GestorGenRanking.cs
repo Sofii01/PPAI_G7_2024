@@ -51,19 +51,44 @@ namespace PPAI_G7_2024.Gestor
 
         public void buscarVinosConReseñaEnPeriodo(List<Vino> vinos)
         {
-            foreach (Vino vino in vinos)
+            var vinosFiltrados = vinos
+                .Where(v => v.tieneReseñasDeTipoEnPeriodo(tipoReseña, fechaDesde, fechaHasta))
+                .ToList();
+            foreach (var vino in vinosFiltrados)
             {
-              vino.tieneReseñasDeTipoEnPeriodo(tipoReseña, fechaDesde, fechaHasta);
+             
+                    string nombre = vino.GetNombre();
+                    decimal precio = vino.GetPrecioARS();
+                    string nombreBodega = vino.Bodega.GetNombre();
+                    string region = vino.Bodega.Region.GetNombre();
+                    string pais = vino.Bodega.Region.Provincia.Pais.GetNombre();
+                    string varietal = vino.BuscarVarietal()
+
+
+
+                Console.WriteLine($"Nombre: {nombre}, Precio: {precio}, Bodega: {nombreBodega}, Región: {region}, País: {pais}");
             }
+
         }
         public void buscarPuntajeDeSommelierEnPeriodo()
         {
-            // pendiente
+
+            foreach(Vino vino in vinos)
+            {
+
+                double promedio = vino.BuscarPuntajeDeSommelier(fechaDesde, fechaHasta);
+                Console.WriteLine($"Vino: {vino.GetNombre()}, Promedio de Sommelier: {promedio}");
+            }
+        }
+        public double BuscarPuntajeGeneralEnPeriodo()
+        {
+
+            return vinos.BuscarPuntajeGeneral(fechaDesde, fechaHasta)
         }
         public List<Vino> ordenarVinos(List<Vino>)
         {
-            //ordenar vinos por...
-            return;
+            //Ordena los vinos según la calificación de sommeliers de mayor a menor.
+            return vinos.OrderByDescending(v => v.BuscarPuntajeDeSommelier(fechaDesde, fechaHasta)).ToList();
         }
     }
 }
