@@ -1,0 +1,34 @@
+C:\Users\Usuario\Documents\PPAI_G7_2024\PPAI_G7_2024\obj\Debug\PPAI_G7_2024.csproj.AssemblyReference.cache
+C:\Users\Usuario\Documents\PPAI_G7_2024\PPAI_G7_2024\obj\Debug\PPAI_G7_2024.csproj.SuggestedBindingRedirects.cache
+C:\Users\Usuario\Documents\PPAI_G7_2024\PPAI_G7_2024\obj\Debug\PPAI_G7_2024.Interfaces.PantallaGenRanking.resources
+C:\Users\Usuario\Documents\PPAI_G7_2024\PPAI_G7_2024\obj\Debug\PPAI_G7_2024.Interfaces.PantallaPrincipal.resources
+C:\Users\Usuario\Documents\PPAI_G7_2024\PPAI_G7_2024\obj\Debug\PPAI_G7_2024.Properties.Resources.resources
+C:\Users\Usuario\Documents\PPAI_G7_2024\PPAI_G7_2024\obj\Debug\PPAI_G7_2024.csproj.GenerateResource.cache
+C:\Users\Usuario\Documents\PPAI_G7_2024\PPAI_G7_2024\obj\Debug\PPAI_G7_2024.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Documents\PPAI_G7_2024\PPAI_G7_2024\bin\Debug\PPAI_G7_2024.exe.config
+C:\Users\Usuario\Documents\PPAI_G7_2024\PPAI_G7_2024\bin\Debug\PPAI_G7_2024.exe
+C:\Users\Usuario\Documents\PPAI_G7_2024\PPAI_G7_2024\bin\Debug\PPAI_G7_2024.pdb
+C:\Users\Usuario\Documents\PPAI_G7_2024\PPAI_G7_2024\obj\Debug\PPAI_G7_2024.exe
+C:\Users\Usuario\Documents\PPAI_G7_2024\PPAI_G7_2024\obj\Debug\PPAI_G7_2024.pdb
+C:\Users\angel\Downloads\PPAI_G7_2024 (2)\PPAI_G7_2024\PPAI_G7_2024\bin\Debug\PPAI_G7_2024.exe.config
+C:\Users\angel\Downloads\PPAI_G7_2024 (2)\PPAI_G7_2024\PPAI_G7_2024\bin\Debug\PPAI_G7_2024.exe
+C:\Users\angel\Downloads\PPAI_G7_2024 (2)\PPAI_G7_2024\PPAI_G7_2024\bin\Debug\PPAI_G7_2024.pdb
+C:\Users\angel\Downloads\PPAI_G7_2024 (2)\PPAI_G7_2024\PPAI_G7_2024\obj\Debug\PPAI_G7_2024.csproj.AssemblyReference.cache
+C:\Users\angel\Downloads\PPAI_G7_2024 (2)\PPAI_G7_2024\PPAI_G7_2024\obj\Debug\PPAI_G7_2024.Interfaces.PantallaGenRanking.resources
+C:\Users\angel\Downloads\PPAI_G7_2024 (2)\PPAI_G7_2024\PPAI_G7_2024\obj\Debug\PPAI_G7_2024.Interfaces.PantallaPrincipal.resources
+C:\Users\angel\Downloads\PPAI_G7_2024 (2)\PPAI_G7_2024\PPAI_G7_2024\obj\Debug\PPAI_G7_2024.Properties.Resources.resources
+C:\Users\angel\Downloads\PPAI_G7_2024 (2)\PPAI_G7_2024\PPAI_G7_2024\obj\Debug\PPAI_G7_2024.csproj.GenerateResource.cache
+C:\Users\angel\Downloads\PPAI_G7_2024 (2)\PPAI_G7_2024\PPAI_G7_2024\obj\Debug\PPAI_G7_2024.csproj.CoreCompileInputs.cache
+C:\Users\angel\Downloads\PPAI_G7_2024 (2)\PPAI_G7_2024\PPAI_G7_2024\obj\Debug\PPAI_G7_2024.exe
+C:\Users\angel\Downloads\PPAI_G7_2024 (2)\PPAI_G7_2024\PPAI_G7_2024\obj\Debug\PPAI_G7_2024.pdb
+D:\Facultad\3er Año\DSI\PPAI_G7_2024\PPAI_G7_2024\bin\Debug\PPAI_G7_2024.exe.config
+D:\Facultad\3er Año\DSI\PPAI_G7_2024\PPAI_G7_2024\bin\Debug\PPAI_G7_2024.exe
+D:\Facultad\3er Año\DSI\PPAI_G7_2024\PPAI_G7_2024\bin\Debug\PPAI_G7_2024.pdb
+D:\Facultad\3er Año\DSI\PPAI_G7_2024\PPAI_G7_2024\obj\Debug\PPAI_G7_2024.csproj.AssemblyReference.cache
+D:\Facultad\3er Año\DSI\PPAI_G7_2024\PPAI_G7_2024\obj\Debug\PPAI_G7_2024.Interfaces.PantallaGenRanking.resources
+D:\Facultad\3er Año\DSI\PPAI_G7_2024\PPAI_G7_2024\obj\Debug\PPAI_G7_2024.Interfaces.PantallaPrincipal.resources
+D:\Facultad\3er Año\DSI\PPAI_G7_2024\PPAI_G7_2024\obj\Debug\PPAI_G7_2024.Properties.Resources.resources
+D:\Facultad\3er Año\DSI\PPAI_G7_2024\PPAI_G7_2024\obj\Debug\PPAI_G7_2024.csproj.GenerateResource.cache
+D:\Facultad\3er Año\DSI\PPAI_G7_2024\PPAI_G7_2024\obj\Debug\PPAI_G7_2024.csproj.CoreCompileInputs.cache
+D:\Facultad\3er Año\DSI\PPAI_G7_2024\PPAI_G7_2024\obj\Debug\PPAI_G7_2024.exe
+D:\Facultad\3er Año\DSI\PPAI_G7_2024\PPAI_G7_2024\obj\Debug\PPAI_G7_2024.pdb
